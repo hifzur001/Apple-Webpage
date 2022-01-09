@@ -1,0 +1,129 @@
+/* *,::before::after{box-sizing: border-box; -webkit-box-sizing: border-box; margin: 0;} */
+/* a{text-decoration: none;} */
+img{vertical-align: text-bottom;}
+/* button{cursor: pointer;} */
+/* [disabled]{cursor: not-allowed;} */
+.container{
+  width: 1320px;
+    padding: 0 15px;
+    margin: auto;
+}
+body{
+    background-image: linear-gradient(aquamarine,lightcyan);
+}
+@font-face {
+    font-family:  pr;
+    src: url(../fonts/proximanova-regular.woff2);
+}
+@font-face {
+    font-family: pb;
+    src: url(../fonts/proximanova-bold.woff2);
+}
+@font-face {
+    font-family:pt;
+    src: url(../fonts/proximanova-light.woff2);
+}
+.reg{font-family: pr sans-serif;}
+h1 ,h3 ,h4 ,b ,strong ,th {font-family: pb sans-serif;}
+body{
+    font-family: pt sans-serif;
+}
+.row{
+    margin: 0 -25px;
+}
+.row::after{
+    content: ""; clear: both; display: block;
+}
+.org{
+    border-radius: 10px;
+    color: white;
+}
+.col-1{ width: 8.33%; float: left; padding: 0 15px;  min-height: 1px;}
+.col-2{ width: 16.66%; float: left; padding: 0 15px;  min-height: 1px;}
+.col-3{ width: 25%; float: left; padding: 0 15px;  min-height: 1px;}
+.col-4{ width: 33.33%; float: left; padding: 0 15px;  min-height: 1px;}
+.col-5{ width: 41.66%; float: left; padding: 0 15px;  min-height: 1px;}
+.col-6{ width: 50%; float: left; padding: 0 15px;  min-height: 1px;}
+.col-7{ width: 58.33%; float: left; padding: 0 15px;  min-height: 1px;}
+.col-8{ width: 66.66%; float: left; padding: 0px 30px;  min-height: 1px;}
+.col-9{ width: 75%; float: left; padding: 0 15px;  min-height: 1px;}
+.col-10{ width: 83.33%; float: left; padding: 0 15px;  min-height: 1px;}
+.col-11{ width: 91.66%; float: left; padding: 0 15px;  min-height: 1px;}
+.col-12{ width: 100%; float: left; padding: 0 15px;  min-height: 1px;}
+/* layout */
+.wrap-1{ background: #000; color: #fff;}
+h1{ font-size: 30px;}
+h1 a{ color: inherit; line-height: 80px; display: inline-block;}
+.wrap-1 nav{ margin-left: -20px;}
+.wrap-1 nav ul{ list-style: none; padding: 0;}
+.wrap-1 nav ul li{ float: left;  margin: 0 5px;}
+.wrap-1 nav ul li a{ color: inherit; line-height: 80px; display: block; padding: 0 15px;}
+.aside {
+    width: 25%;
+    float: left;
+    padding: 0px;
+}
+
+.aside ol {
+    list-style: none;
+    margin-bottom: 10px;
+    padding: 0;
+    display: inline-block;
+}
+
+.aside ol li {
+    padding: 5px;
+    color: brown;
+}
+
+.aside ol li:first-child {
+    border-top: none;
+}
+
+.aside ul {
+    list-style: none;
+    padding: 0;
+    display: table;
+}
+
+
+.aside ul li {
+ 
+    padding: 5px;
+    color: brown;
+}
+
+.aside ul li:first-child {
+    border-top: none;
+}
+.aside ul li:first-child {
+    border-top: none;
+}
+
+.aside ul li:hover {
+    background: brown;
+}
+
+.aside ul li:hover a {
+    color: #fff;
+}
+
+.aside ol li:first-child {
+    border-top: none;
+}
+
+.aside ol li:hover {
+    background: #333;
+}
+
+.aside ol li:hover a {
+    color: #fff;
+}
+.veg{
+    font-size: 40px; color: #000;
+}
+h3{
+    color: darkgreen;
+}
+
+
